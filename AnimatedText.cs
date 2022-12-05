@@ -7,15 +7,15 @@ namespace GTools.AnimatedText
 {
     public class AnimatedText
     {
-        TextMeshProUGUI textLabel;
-        string message;
-        float delay;
+        public TextMeshProUGUI textLabel;
+        public string message;
+        public float delay;
         /// <summary>
-        /// Creates an instance of the Animated text class
+        /// Creates an instance of the Animated text class. Creates a typing effect animation
         /// </summary>
         /// <param name="_textLabel">The <c>TextMeshProUGUI</c></param>
         /// <param name="_message">Text you want to display</param>
-        /// <param name="_delay">How long in between each character you want to delay it</param>
+        /// <param name="_delay">How long tow ait before typing another character</param>
         public AnimatedText(TextMeshProUGUI _textLabel, string _message, float _delay)
         {
             textLabel = _textLabel;
@@ -34,15 +34,6 @@ namespace GTools.AnimatedText
                 textLabel.text += c;
                 yield return new WaitForSeconds(delay);
             }
-        }
-
-        /// <summary>
-        /// Changes the message displayed by the animation. You have to use <c>Animate()</c> after this function to see the changes
-        /// </summary>
-        /// <param name="newMessage"></param>
-        public void ChangeMessage(string newMessage)
-        {
-            message = newMessage;
         }
     }
 }
