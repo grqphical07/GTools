@@ -15,7 +15,7 @@ namespace GTools.AnimatedText
         /// </summary>
         /// <param name="_textLabel">The <c>TextMeshProUGUI</c></param>
         /// <param name="_message">Text you want to display</param>
-        /// <param name="_delay">How long tow ait before typing another character</param>
+        /// <param name="_delay">How long to wait before typing another character</param>
         public AnimatedText(TextMeshProUGUI _textLabel, string _message, float _delay)
         {
             textLabel = _textLabel;
