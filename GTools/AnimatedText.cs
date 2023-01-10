@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-namespace GTools.AnimatedText
+namespace GTools
 {
     public class AnimatedText
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTools", "GTools.csproj", "{6109D9C8-6F9E-450F-8476-DC1087AD9B63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTools", "GTools\GTools.csproj", "{A07AD7C7-1542-44F2-855C-B3EE6895A761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6109D9C8-6F9E-450F-8476-DC1087AD9B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6109D9C8-6F9E-450F-8476-DC1087AD9B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6109D9C8-6F9E-450F-8476-DC1087AD9B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6109D9C8-6F9E-450F-8476-DC1087AD9B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07AD7C7-1542-44F2-855C-B3EE6895A761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07AD7C7-1542-44F2-855C-B3EE6895A761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07AD7C7-1542-44F2-855C-B3EE6895A761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07AD7C7-1542-44F2-855C-B3EE6895A761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
